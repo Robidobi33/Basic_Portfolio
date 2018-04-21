@@ -10,11 +10,12 @@ body {
 .bodyBox {
     background-color:white;
     width:960px;
-    height:750px;
+    height:600px;
     margin-top:20px;
     padding:15px;
     margin-right:auto;
     margin-left:auto;
+    margin-bottom:100px;
 }   
 
 .navBar {
@@ -54,6 +55,47 @@ body {
     float:left;
 }
 
+form{
+    margin:25px auto 0px 15px;
+    color:gray;
+}
+
+input[type=text]{
+    width: 900px;
+    padding:15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color:gray;
+}
+
+textarea{
+    overflow: auto;
+    width: 900px;
+    height:200px;
+    padding:15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color:gray;
+}
+
+button {
+    background-color:#4aaaa5;
+    margin-top:20px;
+    border: none;
+    color: white;
+    padding:10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 table {
     float:right;
 }
@@ -81,27 +123,13 @@ h1 {
     color:white;
 }
 
-p {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin-left:20px;
-    margin-right:25px;
-    line-height: 35px;
-    color:rgb(88, 86, 86);
-}   
 
 .divider{
-    background-color:gray;
+    background-color:rgb(151, 150, 150);
     width:900px;
     height:1px;
     margin-right:auto;
     margin-left:auto;
-}
-
-img.photo{
-    width:200px;
-    height:200px; 
-    margin-left:20px;
-    margin-top:20px;
 }
 
 a {
@@ -130,5 +158,4 @@ a:hover {
     font-size:10px;
     color:rgb(44, 43, 43);
     
-
 }
